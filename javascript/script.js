@@ -8,6 +8,7 @@ const validCoupons = ["Aba", "Bcb", "Cdc"];
 console.log(calculate);
 
 calculate.addEventListener("click", function(){
+    let price = 50;
     console.log(nameYourBurger.value.length)
     //If the text area is empty:
     if(nameYourBurger.value.length == 0){
@@ -15,6 +16,19 @@ calculate.addEventListener("click", function(){
     } else{
         console.log("Giusto");
     }
+
+    //Iterating through each element with a specific class using the for loop index
+    for(let i = 0; i < addIngredients.length; i++){
+
+        if(addIngredients[i].checked == true) {
+            //console.log("Vero");
+            price += 4;
+        } else if(addIngredients[i].checked == false){
+            //console.log("Falso");
+        } 
+        
+    }
+    console.log("Prezzo: " + price.toFixed(2));
 });
 
 

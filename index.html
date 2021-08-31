@@ -19,80 +19,100 @@
 <body>
 
 
-
-    <div class="container">
-
-        <!-- ------Name Your Burger------ -->
-        <div class="row">
-            <div class="col-12">
-                <input id="name_your_burger" type="text">
+    <header class="p-3 mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1>Create Your Burger</h1>
+                </div>
             </div>
         </div>
+    </header>
 
-        <!-- ------Ingredients------ -->
-        <div class="row">
-            <div class="col-6">
-                <ul>
-                    <li>
-                        <label for="cheese_ingredient"> Cheese</label>
-                        <input type="checkbox" id="cheese_ingredient" class="add_ingredient"  value="Cheese">
-                        <label for="cheese_ingredient"> add</label>
-                    </li>
-                    <li>
-                        <label for="cheese_ingredient"> Cheese</label>
-                        <input type="checkbox" id="cheese_ingredient" class="add_ingredient"  value="Cheese">
-                        <label for="cheese_ingredient"> add</label>
-                    </li>
-                    <li>
-                        <label for="cheese_ingredient"> Cheese</label>
-                        <input type="checkbox" id="cheese_ingredient" class="add_ingredient"  value="Cheese">
-                        <label for="cheese_ingredient"> add</label>
-                    </li>
-                </ul>
+
+    <section id="create_your_burger">
+        <div class="container">
+            <!-- ------Name Your Burger------ -->
+            <!-- <div class="row">
+                <div class="col-12">
+                    <input id="name_your_burger" type="text">
+                </div>
+            </div> -->
+        
+            <div class="row">
+                <div class="col-12">
+                    <div class="form-floating mb-3">
+                        <input id="name_your_burger" type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Name Your Burger</label>
+                    </div>
+                </div>
             </div>
-            <div class="col-6">
-                <ul>
-                    <li>
-                        <label for="cheese_ingredient"> Cheese</label>
-                        <input type="checkbox" id="cheese_ingredient" class="add_ingredient"  value="Cheese">
-                        <label for="cheese_ingredient"> add</label>
-                    </li>
-                    <li>
-                        <label for="cheese_ingredient"> Cheese</label>
-                        <input type="checkbox" id="cheese_ingredient" class="add_ingredient"  value="Cheese">
-                        <label for="cheese_ingredient"> add</label>
-                    </li>
-                    <li>
-                        <label for="cheese_ingredient"> Cheese</label>
-                        <input type="checkbox" id="cheese_ingredient" class="add_ingredient"  value="Cheese">
-                        <label for="cheese_ingredient"> add</label>
-                    </li>
-                </ul>
+
+            <!-- ------Ingredients------ -->
+            <div class="row">
+                <div class="col-6">
+                    <ul>
+                        <li>
+                            <label for="cheese_ingredient"> Cheese</label>
+                            <input type="checkbox" id="cheese_ingredient" class="add_ingredient"  value="1">
+                            <label for="cheese_ingredient"> add</label>
+                        </li>
+                        <li>
+                            <label for="cheese_ingredient"> Cheese</label>
+                            <input type="checkbox" id="cheese_ingredient" class="add_ingredient"  value="1">
+                            <label for="cheese_ingredient"> add</label>
+                        </li>
+                        <li>
+                            <label for="cheese_ingredient"> Cheese</label>
+                            <input type="checkbox" id="cheese_ingredient" class="add_ingredient"  value="1">
+                            <label for="cheese_ingredient"> add</label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-6">
+                    <ul>
+                        <li>
+                            <label for="cheese_ingredient"> Cheese</label>
+                            <input type="checkbox" id="cheese_ingredient" class="add_ingredient"  value="2">
+                            <label for="cheese_ingredient"> add</label>
+                        </li>
+                        <li>
+                            <label for="cheese_ingredient"> Cheese</label>
+                            <input type="checkbox" id="cheese_ingredient" class="add_ingredient"  value="2">
+                            <label for="cheese_ingredient"> add</label>
+                        </li>
+                        <li>
+                            <label for="cheese_ingredient"> Cheese</label>
+                            <input type="checkbox" id="cheese_ingredient" class="add_ingredient"  value="2">
+                            <label for="cheese_ingredient"> add</label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- ------Discount Coupon------ -->
+            <div class="row">
+                <div class="col-12">
+                    <label for="discount_coupon"> Discount Coupon</label>
+                    <input id="discount_coupon" type="text" >
+                </div>
+            </div>
+
+            <!-- ------Calculate------ -->
+            <div class="row">
+                <div class="col-12 text-center">
+                    <input id="calculate_button" class="btn btn-primary" type="button" value="Input">
+                </div>
+            </div>
+
+            <!-- ------Your price------ -->
+            <div class="row">
+                <div class="col-12 ">
+                    <p id="your_price">0 &euro;</p>
+                </div>
             </div>
         </div>
-
-        <!-- ------Discount Coupon------ -->
-        <div class="row">
-            <div class="col-12">
-                <label for="discount_coupon"> Discount Coupon</label>
-                <input id="discount_coupon" type="text" >
-            </div>
-        </div>
-
-        <!-- ------Calculate------ -->
-        <div class="row">
-            <div class="col-12 text-center">
-                <input id="calculate_button" class="btn btn-primary" type="button" value="Input">
-            </div>
-        </div>
-
-        <!-- ------Your price------ -->
-        <div class="row">
-            <div class="col-12 ">
-                <p id="your_price">0 &euro;</p>
-            </div>
-        </div>
-    </div>
+    </section>
 
     
     

@@ -23,17 +23,16 @@
         <div class="fluid-container">
             <div class="row">
                 <div class="col-12">
-                    <h1 class="text-center">Create Your Burger</h1>
+                    <h1 class="text-center">Create Your Burger (Responsive)</h1>
                 </div>
             </div>
         </div>
     </header>
 
-    <section id="create_your_burger">
-
+    <main id="create_your_burger">
         <div class="container">
             <!-- ------Name your Burger------ -->
-            <div class="row d-flex justify-content-center">
+            <div class="row mb-5 d-flex justify-content-center">
                 <div class="col-12 col-md-6">
                     <div class="form-floating mb-3">
                         <input id="name_your_burger" class="form-control" type="email" id="floatingInput" placeholder="name@example.com">
@@ -91,25 +90,25 @@
             <!-- ------Calculate------ -->
             <div class="row mb-5">
                 <div class="col-12 text-center">
-                    <input id="calculate_button" class="btn btn-primary" type="button" value="Calculate">
+                    <input id="calculate_button" class="btn" type="button" value="Calculate">
                 </div>
             </div>
 
             
         </div>
-    </section>
+    </main>
 
 
     <footer >
-        <div class="container">
-            <div class="row">
-                <div class="col-6">
-                    <h1>Create Your Burger</h1>
+        <div class="container py-3">
+            <div class="row d-flex align-items-center">
+                <div class="col-8">
+                    <h1>Your Price:</h1>
                     
                 </div>
                 <!-- ------Your price------ -->
-                <div class="col-6">
-                    <p id="your_price">0 &euro;</p>
+                <div class="col-4 text-center">
+                    <span id="your_price" class="fs-4"></span>
                 </div>
                 
             </div>

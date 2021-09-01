@@ -1,10 +1,13 @@
-header{
-    background-color: #fdbb40;
+body{
+    min-width: 330px;
 }
-
 footer{
     
-    background-color: #d33359
-    
+    background-color: #d33359;
+    color: white;
+}
+header,
+#calculate_button{
+    background-color: #fdbb40;
 }
 
